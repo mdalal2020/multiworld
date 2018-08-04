@@ -9,7 +9,7 @@ from multiworld.envs.mujoco.sawyer_xyz.base import SawyerXYZEnv
 
 import mujoco_py
 
-class SawyerPushAndReachXYZEnv(MultitaskEnv, SawyerXYZEnv):
+class   SawyerPushAndReachXYZEnv(MultitaskEnv, SawyerXYZEnv):
     def __init__(
             self,
             puck_low=None,
