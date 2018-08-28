@@ -512,7 +512,7 @@ class SawyerDoorPullOpenEnv(SawyerDoorEnv):
                  max_x_pos=.1,
                  min_y_pos=.5,
                  max_y_pos=.6,
-                 use_line=False,
+                 use_line=True,
                  **kwargs
                  ):
         self.quick_init(locals())
